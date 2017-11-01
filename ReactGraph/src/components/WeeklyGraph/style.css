@@ -1,0 +1,9 @@
+.container {
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.container label {
+    justify-content: left;
+}

@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 180px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.date-picker {
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  font-size: 16px;
+  height: 25px;
+  border: none;
+  color: #222;
+}
+
+.stat-row {
+  display: flex;
+}
+
+.stat-row .col-1 label, .col-2 label, .col-3 label {
+  font-size: 22px; 
+  line-height: 30px;
+}
+
+.stat-row .col-1, .col-2, .col-3 {
+  width: 33.3%;
+  position: relative;  
+  height: 170px;
+  padding-top: 30px;
+  margin-top: 25px;
+  background-color: #eee;
+}
